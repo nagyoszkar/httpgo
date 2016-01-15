@@ -1,0 +1,8 @@
+[Unit]
+Description=http
+
+[Service]
+ExecStart=/usr/bin/http
+
+[Install]
+WantedBy=multi-user.target
